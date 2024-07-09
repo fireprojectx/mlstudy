@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concurso Guru</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        .instructions {
+            flex: 1;
+            padding: 20px;
+            background-color: #f4f4f4;
+            overflow-y: auto;
+        }
+        .chatbot {
+            flex: 1;
+            padding: 20px;
+            background-color: #ffffff;
+            overflow-y: auto;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="instructions">
+            <h1>Instruções e Exemplos de Comando</h1>
+            <p>Insira aqui suas instruções e exemplos de comandos para os usuários utilizarem no chatbot.</p>
+            <ul>
+                <li>Exemplo 1: Pergunte sobre disciplinas específicas.</li>
+                <li>Exemplo 2: Peça por dicas de estudo.</li>
+                <li>Exemplo 3: Pergunte sobre o conteúdo das provas.</li>
+                <!-- Adicione mais exemplos conforme necessário -->
+            </ul>
+        </div>
+        <div class="chatbot">
+            <iframe src="https://chat.sendbot.co/chat-gpt-b-sico-2w063jf"></iframe>
+        </div>
+    </div>
+</body>
+</html>
