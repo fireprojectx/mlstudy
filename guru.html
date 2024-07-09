@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bem-vindo ao Guru dos Concursos!</title>
+    <title>Dicas para o Guru dos Concursos</title>
     <style>
         body {
             background: linear-gradient(to right, #1e3c72, #2a5298);
             color: #ffffff;
             font-family: Arial, sans-serif;
-            padding: 20px;
+            margin: 0;
+            display: flex;
+            height: 100vh;
         }
         .container {
-            max-width: 800px;
-            margin: 0 auto;
+            display: flex;
+            width: 100%;
+        }
+        .instructions {
+            flex: 1;
             padding: 20px;
             background-color: rgba(0, 0, 0, 0.7);
-            border-radius: 10px;
+            overflow-y: auto;
+        }
+        .chatbot {
+            flex: 1;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            overflow-y: auto;
         }
         h1, h2 {
             color: #00d4ff;
@@ -36,23 +47,43 @@
             left: 0;
             color: #00d4ff;
         }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="instructions">
-            <h1>Estamos aqui para ajudar você a alcançar a tão sonhada aprovação. Nossa ferramenta de inteligência artificial é uma das mais confiáveis do mercado, reunindo o conhecimento consolidado da humanidade ao longo dos anos para apoiar sua jornada.</h1>
-            <p>Dicas e Comandos para Aproveitar ao Máximo:</p>
+            <div class="logo">
+                <img src="https://raw.githubusercontent.com/fireprojectx/mlstudy/main/banner.png.webp" alt="Logo">
+            </div>
+            <h1>Bem-vindo ao Guru dos Concursos!</h1>
+            <p>Estamos aqui para ajudar você a alcançar a tão sonhada aprovação.</p>
+            <p>Nossa ferramenta de inteligência artificial é uma das mais confiáveis do mercado.</p>
+            <p>Nela está reunido o conhecimento consolidado da humanidade ao longo dos anos, pronto para apoiar sua jornada.</p>
+            <h2>Dicas e Comandos para Aproveitar ao Máximo:</h2>
             <ul>
-                <li>Seja direto: Faça perguntas claras e objetivas.</li>
-                <li>Evite ser prolixo: Quanto mais conciso for, mais eficiente será a resposta.</li>
-                <li>Aproveite todo o conhecimento: Nossa IA está pronta para fornecer informações precisas e valiosas.</li>
-                <li>Abaixo você encontrará algumas dicas úteis para otimizar seu estudo e comandos que podem ser usados para explorar todos os recursos da nossa ferramenta. Lembre-se, o sucesso no concurso começa com a preparação adequada. Estamos aqui para tornar esse caminho mais fácil e eficiente.</li>
-                <li>Em vez de perguntar "O que estudar para concursos?", pergunte "Quais tópicos de (indique a disciplina) são mais cobrados no concurso da (indique o concurso)?".</li>
-                <li>Se tiver uma pergunta complexa, divida-a em partes menores. Por exemplo, pergunte primeiro sobre a estrutura do edital e depois sobre os principais conteúdos.</li>
-                <li>Utilize palavras-chave relevantes ao seu estudo, como "raciocínio lógico", "direito administrativo", ou "dicas de estudo".</li>
-                <li>Forneça contexto quando necessário. Por exemplo, "Estou estudando para o concurso de (indique a disciplina). Quais são as melhores práticas de estudo?".</li>
-                <!-- Adicione mais exemplos conforme necessário -->
+                <li><strong>Seja específico:</strong> Pergunte sobre tópicos específicos para obter respostas precisas.</li>
+                <li><strong>Divida perguntas complexas:</strong> Quebre questões grandes em partes menores.</li>
+                <li><strong>Use palavras-chave:</strong> Utilize termos relevantes para seu estudo.</li>
+                <li><strong>Contextualize suas perguntas:</strong> Forneça informações adicionais quando necessário.</li>
+                <li><strong>Revise as respostas:</strong> Verifique as respostas e peça esclarecimentos se necessário.</li>
+                <li><strong>Pergunte sobre recursos adicionais:</strong> Solicite indicações de livros, cursos e materiais.</li>
+                <li><strong>Gerencie seu tempo:</strong> Peça dicas para organizar um cronograma eficiente.</li>
+                <li><strong>Use exemplos e práticas:</strong> Peça exercícios e exemplos práticos.</li>
+                <li><strong>Feedback e ajustes:</strong> Ajuste suas perguntas para obter melhores respostas.</li>
+                <li><strong>Explore diferentes áreas:</strong> Pergunte sobre várias disciplinas e suas interconexões.</li>
             </ul>
         </div>
         <div class="chatbot">
