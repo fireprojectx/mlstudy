@@ -11,30 +11,37 @@
             font-family: Arial, sans-serif;
             margin: 0;
             display: flex;
-            height: 100vh;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            padding: 20px;
         }
-        .container {
-            display: flex;
+        .content {
             width: 100%;
-        }
-        .instructions {
-            flex: 1;
-            padding: 20px;
+            max-width: 1200px;
             background-color: rgba(0, 0, 0, 0.7);
-            overflow-y: auto;
-        }
-        .chatbot {
-            flex: 1;
-            background-color: rgba(255, 255, 255, 0.8);
             padding: 20px;
-            overflow-y: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            max-width: 100%;
+            height: auto;
         }
         h1, h2 {
             color: #00d4ff;
         }
         ul {
             list-style-type: none;
-            padding: 0;
+            padding: 5;
+            text-align: left;
         }
         li {
             margin: 10px 0;
@@ -48,47 +55,36 @@
             color: #00d4ff;
         }
         iframe {
-            width: 100%;
-            height: 100%;
+            width: 86%;
+            height: 85vh;
             border: none;
-        }
-        .logo {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .logo img {
-            max-width: 100%;
-            height: auto;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="instructions">
-            <div class="logo">
-                <img src="https://raw.githubusercontent.com/fireprojectx/mlstudy/main/banner.png.webp" alt="Logo">
-            </div>
-            <h1>Bem-vindo ao Guru dos Concursos!</h1>
-            <p>Estamos aqui para ajudar você a alcançar a tão sonhada aprovação.</p>
-            <p>Nossa ferramenta de inteligência artificial é uma das mais confiáveis do mercado.</p>
-            <p>Nela está reunido o conhecimento consolidado da humanidade ao longo dos anos, pronto para apoiar sua jornada.</p>
-            <h2>Dicas e Comandos para Aproveitar ao Máximo:</h2>
-            <ul>
-                <li><strong>Seja específico:</strong> Pergunte sobre tópicos específicos para obter respostas precisas.</li>
-                <li><strong>Divida perguntas complexas:</strong> Quebre questões grandes em partes menores.</li>
-                <li><strong>Use palavras-chave:</strong> Utilize termos relevantes para seu estudo.</li>
-                <li><strong>Contextualize suas perguntas:</strong> Forneça informações adicionais quando necessário.</li>
-                <li><strong>Revise as respostas:</strong> Verifique as respostas e peça esclarecimentos se necessário.</li>
-                <li><strong>Pergunte sobre recursos adicionais:</strong> Solicite indicações de livros, cursos e materiais.</li>
-                <li><strong>Gerencie seu tempo:</strong> Peça dicas para organizar um cronograma eficiente.</li>
-                <li><strong>Use exemplos e práticas:</strong> Peça exercícios e exemplos práticos.</li>
-                <li><strong>Feedback e ajustes:</strong> Ajuste suas perguntas para obter melhores respostas.</li>
-                <li><strong>Explore diferentes áreas:</strong> Pergunte sobre várias disciplinas e suas interconexões.</li>
-            </ul>
+    <div class="content">
+        <div class="logo">
+            <img src="https://raw.githubusercontent.com/fireprojectx/mlstudy/main/banner.png.webp" alt="Logo">
         </div>
-        <div class="chatbot">
-            <iframe src="https://chat.sendbot.co/chat-gemini-xgdehkz"></iframe>
-        </div>
+        <h1>Bem-vindo ao Guru dos Concursos!</h1>
+        <p>Estamos aqui para ajudar você a alcançar a tão sonhada aprovação.</p>
+        <p>Nossa ferramenta de inteligência artificial é uma das mais confiáveis do mercado.</p>
+        <p>Nela está reunido o conhecimento consolidado da humanidade ao longo dos anos, pronto para apoiar sua jornada.</p>
+        <h2>Dicas e Comandos para Aproveitar ao Máximo:</h2>
+        <ul>
+            <li><strong>Seja específico:</strong> Pergunte sobre tópicos específicos para obter respostas precisas.</li>
+            <li><strong>Divida perguntas complexas:</strong> Quebre questões grandes em partes menores.</li>
+            <li><strong>Use palavras-chave:</strong> Utilize termos relevantes para seu estudo.</li>
+            <li><strong>Contextualize suas perguntas:</strong> Forneça informações adicionais quando necessário.</li>
+            <li><strong>Revise as respostas:</strong> Verifique as respostas e peça esclarecimentos se necessário.</li>
+            <li><strong>Pergunte sobre recursos adicionais:</strong> Solicite indicações de livros, cursos e materiais.</li>
+            <li><strong>Gerencie seu tempo:</strong> Peça dicas para organizar um cronograma eficiente.</li>
+            <li><strong>Use exemplos e práticas:</strong> Peça exercícios e exemplos práticos.</li>
+            <li><strong>Feedback e ajustes:</strong> Ajuste suas perguntas para obter melhores respostas.</li>
+            <li><strong>Explore diferentes áreas:</strong> Pergunte sobre várias disciplinas e suas interconexões.</li>
+        </ul>
     </div>
+    <iframe src="https://chat.guruconcursos.online/my-typebot-4giimub"></iframe>
 </body>
 </html>
