@@ -73,4 +73,21 @@ function criarBarra(var_nome, var_avatar) {
     link.media = 'all';
     head.appendChild(link);
   }
+
+  // Adiciona o elemento de input para o usuário
+  var userInput = document.createElement("input");
+  userInput.className = "user-input";
+  userInput.setAttribute("type", "text");
+  userInput.setAttribute("placeholder", "Digite sua mensagem...");
+  userInput.style.position = "fixed";
+  userInput.style.bottom = "10px";
+  userInput.style.left = "10px";
+  userInput.style.width = "calc(100% - 20px)";
+  userInput.style.height = "40px";
+  userInput.style.padding = "10px";
+  userInput.style.borderRadius = "20px";
+  userInput.style.border = "1px solid #ccc";
+  userInput.style.boxSizing = "border-box";
+
+  document.body.appendChild(userInput);
 }
