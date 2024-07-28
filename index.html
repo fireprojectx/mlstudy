@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagrama do Ciclo de Krebs</title>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</head>
+<body>
+    <h1>Diagrama do Ciclo de Krebs</h1>
+    <div class="mermaid">
+        graph TD
+        A[Acetil-CoA] -->|Combina com| B[Oxoaloacetato]
+        B --> C[Citrato]
+        C --> D[Isocitrato]
+        D --> E[α-Cetoglutarato]
+        E --> F[Succinil-CoA]
+        F --> G[Succinate]
+        G --> H[Fumarato]
+        H --> I[Malato]
+        I --> B
+    </div>
+</body>
+</html>
